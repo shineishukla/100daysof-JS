@@ -1,0 +1,88 @@
+Day 1 of #100DaysofCode (JavaScript Series) 
+
+
+console.log(); // prints to the console
+alert(); // pop up alert
+prompt(); // pop up prompt for user input
+
+Single line comment //
+Multi line comment /* */
+
+Precedence of operators:
+1. () 
+2. ++, -- (postfix)
+3. ++, -- (prefix)
+4. !, typeOf, - (unary)
+5. *, /, %
+6. +, -
+7. <, <=, >, >=
+8. ==, !=
+9. &&
+10. ||
+11. =, +=, -=, *=, /=, %=
+12. , (comma)
+
+
+Variables: 
+var, let, const
+
+var- global scope, value can be changed
+let- block scope, value can be changed
+const- block scope, value cannot be changed
+
+
+Rules of naming variables:
+1. Cannot start with number
+2. Cannot contain spaces or hyphens
+3. Cannot be a reserved keyword
+4. Should be meaningful and descriptive
+5. Cannot start with uppercase letter
+6. Cannot contain special characters except $ and _
+
+Data types:
+1. Primitive/Value types
+    a. String
+    b. Number
+    c. Boolean
+    d. undefined
+    e. null
+
+Arithmetic operators:
+1. Addition +
+2. Subtraction -
+3. Multiplication *
+4. Division /
+5. Modulous(Remainder) %
+6. Exponentiation **
+7. Increment ++
+8. Decrement --
+
+Assignment operators:
+1. Assignment =
+2. Addition assignment +=
+3. Subtraction assignment -=
+4. Multiplication assignment *=
+5. Division assignment /=
+6. Remainder assignment %=
+7. Exponentiation assignment **=
+
+String concatenation:
+1. String + String
+2. String + Number
+3. Number + String
+4. String + Boolean
+5. Boolean + String
+6. String + undefined
+7. undefined + String
+
+
+New line character \n
+Tab character \t
+
+Template literals: are another way of create strings. They use backticks instead of single or double quotes.
+They allow us to embed expressions into strings.
+
+
+
+
+
