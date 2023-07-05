@@ -19,9 +19,8 @@ Follow along with my JavaScript Journey by regularly checking this repository. I
 
 You can also connect with me on social media:
 
-- Twitter: [@shineishukla]("https://twitter.com/ShineiShukla")
-
-- LinkedIn: [shinei-shukla]("https://www.linkedin.com/in/shinei-shukla-3712991b0/")
+[<img src="https://img.icons8.com/color/48/000000/linkedin.png" width="3.5%"/>](https://www.linkedin.com/in/shinei-shukla-3712991b0/)    &nbsp; 
+[<img src="https://img.icons8.com/color/48/000000/twitter.png" width="3.5%"/>](https://twitter.com/ShineiShukla)   &nbsp;
 
 Let's embark on this JavaScript Journey together and grow as developers!
 
