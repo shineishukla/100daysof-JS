@@ -123,3 +123,11 @@ for(let i=1;i<=10;i++){
 }
 console.log(sum4);
 
+
+//return statement
+
+function add(a,b){
+    return a+b;
+}
+let result=add(10,20);
+console.log(result);

@@ -57,3 +57,18 @@ while (condition);
 in the loop.
 syntax: break;
         continue;
+
+
+Functions- a block of code designed to perform a particular task.
+syntax: function name(parameter1, parameter2, parameter3) {
+  // code to be executed
+}
+
+
+Functions can have parameters. 
+The parameters are defined inside the parentheses and can be used as variables in the function.
+
+Note:You can use parameters outside the function as parameters.
+
+Returning values- to let the function return a value, use the return statement.
+syntax: return value;
