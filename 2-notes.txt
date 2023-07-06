@@ -1,0 +1,59 @@
+Day 2 of #100DaysofCode (JavaScript Series) 
+
+Comparison Operators:
+1. == (Equal to)
+2. === (Equal value and equal type[strict equality])
+3. != (Not equal)
+4. !== (Not equal value or not equal type)
+5. > (Greater than)
+6. < (Less than)
+7. >= (Greater than or equal to)
+8. <= (Less than or equal to)
+
+
+
+Statements:
+1. if- the if statement executes a statement if a specified condition is truth. 
+If the condition is false, another statement can be executed.
+
+2. else- the else statement executes a statement if a specified condition is false.
+
+3. else if- the else if statement executes a statement if a specified condition is true.
+
+4. switch- the switch statement executes a block of code depending on different cases.
+
+5. break- the break statement "jumps out" of a loop.
+
+Note: default keyword specifies some code to run if there is no case match.
+
+
+
+Ternary Operator:
+It is the only JavaScript operator that takes three operands. 
+Also known as conditional operator, it can be used as an alternative to the if...else statement.
+
+syntax: variablename = (condition) ? value1:value2;
+
+
+
+Loops:
+1. for- loops through a block of code a number of times.
+syntax: for (statement 1; statement 2; statement 3) {
+  // code block to be executed
+}
+
+2. while- loops through a block of code while a specified condition is true.
+syntax: while (condition) {
+  // code block to be executed
+}
+
+3. do while- also loops through a block of code while a specified condition is true.
+syntax: do {
+  // code block to be executed
+}
+while (condition);
+
+4. break and continue- break statement "jumps out" of a loop. continue statement "jumps over" one iteration
+in the loop.
+syntax: break;
+        continue;
