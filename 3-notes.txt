@@ -1,0 +1,39 @@
+Day 2 of #100DaysofCode (JavaScript Series)
+
+Objects: objects are a collection of properties. Properties are a key value pair. 
+The key is a string and the value can be any data type.
+
+syntax:
+let objectName = {
+    key: value,
+    key: value,
+    key: value
+}
+
+Two ways to access:
+1. dot notation-
+syntax: objectName.key
+
+2. bracket notation-
+syntax: objectName["key"]
+
+
+built in length property: is used to find the length of a string or an array.
+syntax: objectName.length
+
+Object Methods: are functions that are stored as object properties.
+syntax: objectName.methodName()
+
+- document.write() outputs data. The write() function is actually a method of the document object.
+
+Oject Constructors: are used to create new objects of the same type.
+syntax: 
+function objectName(parameter1, parameter2) {
+    this.parameter1 = parameter1;
+    this.parameter2 = parameter2;
+}
+
+Important: this keyword: refers to the current object. It is used to access properties of the current object.
+
+Note: Access the object's properties by using the dot syntax.
+
