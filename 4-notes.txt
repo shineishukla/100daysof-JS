@@ -1,0 +1,80 @@
+Day 4 of #100DaysofCode
+
+Object Initializing- 
+
+Methods - are functions that stored as object properties. A method is a function, belonging to an object. 
+It can be referenced using the this keyword.
+
+Creating syntax:
+methodName = function() { code lines }
+
+Accsessing syntax:
+objectName.methodName()
+
+
+The changeName method changes the object's name property to its argument.
+
+this.name refers to the name property of the object.
+
+
+Logical Operators -
+Logical operators are used to determine the logic between variables or values. 
+Following are the logical operators supported by JavaScript language:
+1. && (Logical AND) - If both the operands are non-zero, then the condition becomes true.
+2. || (Logical OR) - If any of the two operands are non-zero, then the condition becomes true.
+3. ! (Logical NOT) - Reverses the logical state of its operand. If a condition is true, then Logical NOT operator 
+will make it false.
+
+
+
+for-in loop - This loop is used to loop through the properties of an object.
+syntax:
+for (variable in object) {
+  code to be executed
+}
+
+for-of loop - This loop is used to loop through the values of an iterable object.
+syntax:
+for (variable of iterable) {
+  code to be executed
+}
+
+
+
+String methods:-
+1. charAt() - returns the character at the specified index in a string.
+2. charCodeAt() - returns the Unicode of the character at the specified index in a string.
+3. concat() - joins two or more strings.
+4. fromCharCode() - converts Unicode values into characters.
+5. repeat() - returns a new string with a specified number of copies of an existing string.
+6. replace() - searches a string for a specified value, or a regular expression, and returns a new string where 
+the specified values are replaced.
+7. slice() - extracts a part of a string and returns a new string.
+8. split() - splits a string into an array of substrings.
+9. substr() - extracts the characters from a string, beginning at a specified start position, and through the 
+specified number of character.
+10. substring() - extracts the characters from a string, between two specified indices.
+11. toLowerCase() - converts a string to lowercase letters.
+12. toUpperCase() - converts a string to uppercase letters.
+13. trim() - removes whitespace from both ends of a string.
+14. valueOf() - returns the primitive value of a string object.
+15- trimStart() - removes whitespace from the beginning of a string.
+16. trimEnd() - removes whitespace from the end of a string.
+17. replaceAll() - replaces all occurrences of a specified string/regular expression with another string/regular 
+expression.
+18. length()- returns the length of the string
+
+
+String search methods:
+1. match() - searches a string for a match against a regular expression, and returns the matches.
+2. search() - searches a string for a specified value, or regular expression, and returns the position of the 
+match.
+3. indexOf() - returns the position of the first occurrence of specified string/characters in a string.
+4. lastIndexOf() - returns the position of the last occurrence of specified string/characters in a string.
+5. endsWith() - checks whether a string ends with specified string/characters.
+6. startsWith() - checks whether a string begins with specified characters.
+7. includes() - checks whether a string contains the specified string/characters.
+8. matchAll()- returns an iterator of all results matching a string against a regular expression, including 
+capturing groups.
+
+
