@@ -1,0 +1,50 @@
+Day 5 of 100DaysofCode
+
+Arrays:
+Array stores multiple values in a single variable. It is a collection of variables of the same type.
+
+Array methods in JavaScript:
+1. push() - adds one or more elements to the end of an array and returns the new length of the array.
+2. pop() - removes the last element from an array and returns that element.
+3. shift() - removes the first element from an array and returns that removed element.
+4. unshift() - adds one or more elements to the beginning of an array and returns the new length of the array.
+5. splice() - changes the contents of an array by removing or replacing existing elements and/or adding new 
+elements in place.
+6. slice() - returns a shallow copy of a portion of an array into a new array object selected from start to end 
+(end not included) where start and end represent the index of items in that array. The original array will not 
+be modified.
+7. toString() - returns a string representing the specified array and its elements.
+8. join() - creates and returns a new string by concatenating all of the elements in an array (or an array-like 
+object), separated by commas or a specified separator string. If the array has only one item, then that item will 
+be returned without using the separator.
+9. delete() - deletes the element at the specified index, but the array still has that empty spot at that index.
+10. concat() - is used to merge two or more arrays. This method does not change the existing arrays, but instead
+returns a new array.
+11. length() - returns the number of elements in that array.
+12. flat() - creates a new array with all sub-array elements concatenated into it recursively up to the specified
+depth.
+
+
+Sorting an array:
+1. sort() - sorts the elements of an array in place and returns the sorted array. The default sort order is
+ascending.
+2. reverse() - reverses an array in place. The first array element becomes the last, and the last array element
+becomes the first.
+3. Math.max() - returns the largest of zero or more numbers.
+4. Math.min() - returns the smallest of zero or more numbers.
+5. Math.random() - returns a floating-point, pseudo-random number in the range 0 to less than 1 (inclusive of 0,
+but not 1) with approximately uniform distribution over that range — which you can then scale to your desired
+range.
+6. Math.floor() - returns the largest integer less than or equal to a given number.
+7. Math.ceil() - returns the smallest integer greater than or equal to a given number.
+8. Math.round() - returns the value of a number rounded to the nearest integer.
+9. Math.sqrt() - returns the square root of a number.
+10. Math.pow() - returns the base to the exponent power, that is, baseexponent.
+
+
+
+Associative Arrays: 
+An associative array is an array with string keys rather than numeric keys. In JavaScript, objects are
+associative arrays, and this section explains why that is important.
+
+
