@@ -1,0 +1,25 @@
+Day 6 of #100DaysofCode
+
+setInterval()- calls a function or evaluates an expression at specified intervals (in milliseconds).
+
+Note: it will continue calling the function until clearInterval() is called or the window is closed.
+
+
+The Date Object:
+
+new Date() - creates a new date object with the current date and time.
+
+other ways to initialize dates:
+- new Date(milliseconds)
+- new Date(dateString)
+- new Date(year, month, day, hours, minutes, seconds, milliseconds)
+
+Date Methods:
+- getDate() - returns the day of the month (from 1-31)
+- getDay() - returns the day of the week (from 0-6)
+- getFullYear() - returns the year
+- getHours() - returns the hour (from 0-23)
+- getMilliseconds() - returns the milliseconds (from 0-999)
+- getMinutes() - returns the minutes (from 0-59)
+- getMonth() - returns the month (from 0-11)
+- getSeconds() - returns the seconds (from 0-59)
