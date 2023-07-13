@@ -1,0 +1,35 @@
+Day 7 of #100DaysOfCode
+
+The DOM(Document Object Model)
+
+- DOM represents a document as a tree.
+- HTML elements become interrelated nodes in the tree.
+- Nodes can have child nodes.
+- Nodes on the same level are called siblings.
+- Document object is the owner(or root) of all onjects on your webpage.
+
+Note: In JS, there is a predefined document object. 
+
+Selecting elements:
+1. document.getElementById(id)
+2. document.getElementByClassName(name)
+3. document.getElementByTagName(name)
+
+
+Each element in the DOM has a set of properties and methods that provide information about their relationships in the DOM:
+
+- element.childNodes: returns an array of an element's child nodes.
+- element.firstChild: returns the first child node of an element.
+- element.lastChild: returns the last child node of an element.
+- element.hasChildNodes: returns true if an element has any child nodes, otherwise false.
+- element.nextSibling: returns the next node at the same tree level.
+- element.previousSibling: returns the previous node at the same tree level.
+- element.parentNode: returns the parent node of an element.
+
+Changing Attributes:
+we can change the src attribute of an image.
+
+Changing style:
+All CSS properties can be set and modified using JavaScript. Just remember, that you cannot use dashes (-) in the 
+property names: these are replaced with camelCase versions, where the compound words begin with a capital letter.
+For example, the background-color property should be referred to as backgroundColor.
