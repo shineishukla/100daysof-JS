@@ -1,0 +1,25 @@
+Day 8 of #100DaysOfCode
+
+DOM(continue....)
+
+
+Creating elements:
+1. element.cloneNode()- clones an element and returns the resulting node.
+2. document.createElement(element)- creates a new element node. 
+3. document.createTextNode(text)- creates a new text node.
+
+>> element.appendChild(newNode) adds a new child node to an element as the last child node.
+
+>> element.insertBefore(node1, node2) inserts node1 as a child before node2.
+
+
+Removing elements:
+To remove an HTML element, you must select the parent of the element and use the removeChild(node) method.
+
+
+Replacing Elements:
+To replace an HTML element, the element.replaceChild(newNode, oldNode) method is used.
+
+
+For creating animations, we use setInterval() method. And to stop the animation, we use clearInterval() method.
+
