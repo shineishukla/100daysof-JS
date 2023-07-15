@@ -1,0 +1,38 @@
+Day 9 of #100DaysOfCode
+
+Event Handling:
+When an event occurs on a target element, a handler function is executed. 
+Event handlers can be assigned to elements.
+You can attach events to almost all HTML elements.
+
+
+
+Common HTML events:
+- onclick: occurs when the user clicks on an element
+- onload: occurs when an object has been loaded
+- onmouseover: occurs when the pointer is moved onto an element
+- onmouseout: occurs when the pointer is moved out of an element
+- onunload: occurs once a page has unloaded (for <body> and <frameset>)
+- onmousedown: occurs when a mouse button is pressed
+- onmouseup: occurs when a mouse button is released
+- onfocus: occurs when an element gets focus
+- onblur: occurs when an element loses focus
+- onchange: occurs when the content of a form element, the selection, or the checked state have changed 
+(for <input>, <select>, and <textarea>)
+
+
+Event Listeners:
+The addEventListener() method attaches an event handler to an element without overwriting existing event handlers. 
+You can add many event handlers to one element.
+
+syntax:
+element.addEventListener(event, function, useCapture);
+
+event: Required. A String that specifies the name of the event.
+function: Required. Specifies the function to run when the event occurs.
+useCapture: Optional. A Boolean value that specifies whether the event should be executed in the capturing or in 
+the bubbling phase.
+
+Note: Internet Explorer version 8 and lower do not support the addEventListener() and removeEventListener() 
+methods. However, you can use the document.attachEvent() method to attach event handlers in Internet Explorer.
+
