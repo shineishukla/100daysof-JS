@@ -1,0 +1,65 @@
+Day 10 of #100DaysOfCode
+
+Event Propagation:
+
+There are two ways of event propagation in the HTML DOM: bubbling and capturing.
+In bubbling, the innermost element's event is handled first and then the outer element's event is handled.
+The <p> element's click event is handled first, followed by the <div> element's click event.
+
+In capturing, the outermost element's event is handled first and then the inner. The <div> element's click event 
+is handled first, followed by the <p> element's click event.
+
+
+The addEventListener() method allows you to specify the propagation type with the "useCapture" parameter.
+
+The default value is false, which means the bubbling propagation is used; when the value is set to true, the event
+uses the capturing propagation.
+
+syntax: 
+//Capturing propagation
+elem1.addEventListener("click", myFunction, true); 
+
+//Bubbling propagation
+elem2.addEventListener("click", myFunction, false);
+
+
+Image Slider:
+An image slider is an image slider and they’re all about the same, right? Not so fast. What are the main 
+requirements for choosing any kind of web component? Compatibility, easy setup, high performance, and nice look 
+and feel. With this criteria in mind, we came up with the following list of the best image sliders currently 
+available on the market. Most of them are free and some have free trial periods.
+
+
+Form Validation:
+A form is also known as a web form or HTML form. It allows users to enter data that is sent to a server for
+processing. Forms can resemble paper or database forms because web users fill out the forms using checkboxes,
+radio buttons, or text fields. For example, forms can be used to enter shipping or credit card data to order a
+product, or can be used to retrieve search results from a search engine.
+
+Note: The form will not get submitted if its onsubmit event returns false.
+
+
+
+ECMAScript 6:
+Also known as ECMAScript 2015, ES6 is the latest standard of JavaScript. It was released in 2015 and has since
+been adopted by all major browsers and JavaScript engines. ES6 is a significant update to the language, and the
+first major update to the language since ES5 was standardized in 2009. Implementation of these features in major
+JavaScript engines is underway now.
+
+Features:
+1. Arrow Functions
+2. Classes
+3. Enhanced Object Literals
+4. Template Literals
+5. Destructuring Assignment
+6. Default Parameters
+7. Rest Parameters
+8. Spread Operator
+9. Let and Const
+10. Iterators
+
+In other words, ES6 is a superset of JavaScript (ES5). The reason that ES6 became so popular is that it introduced
+new conventions and OOP concepts such as classes. 
+
+
+
