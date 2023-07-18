@@ -52,3 +52,13 @@ else{
     console.log("Odd number");
 }
 
+
+//check whethr the num is divisible by 2 and 3
+
+let num1=prompt("Enter a number");
+if (num1%2==0 && num1%3==0){
+    console.log("The number is divisible by 2 and 3");
+}
+else{
+    console.log("The number is not divisible by 2 and 3");
+}
