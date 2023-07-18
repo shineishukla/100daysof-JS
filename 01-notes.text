@@ -5,6 +5,9 @@ console.log(); // prints to the console
 alert(); // pop up alert
 prompt(); // pop up prompt for user input
 
+Note- You cannot use prompt in Vs Code. You can use it in browser console.
+
+
 Single line comment //
 Multi line comment /* */
 
