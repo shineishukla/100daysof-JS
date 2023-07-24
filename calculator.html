@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <style>
+            body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 20px 0;
+            margin: 0;
+            text-align: center;
+            }
+
+            span {
+            border-bottom: 2px solid black;
+            padding: 4px;
+            }
+
+            button {
+            margin: 20px 0;
+            background: white;
+            color: black;
+            border: 1px solid black;
+            font-weight: bold;
+            cursor: pointer;
+            padding: 5px 8px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <span id="num1-el"></span>
+        <span id="num2-el"></span>
+        <br>
+        <button onclick="add()">Add</button>
+        <button onclick="subtract()">Subtract</button>
+        <button onclick="divide()">Divide</button>
+        <button onclick="multiply()">Multiply</button>
+        <br>
+        <span id="sum-el">Sum: </span>
+        <script>
+            let num1 = 8
+            let num2 = 2
+            document.getElementById("num1-el").textContent = num1
+            document.getElementById("num2-el").textContent = num2
+
+            let sumEl = document.getElementById("sum-el")
+
+            function add() {
+                let result = num1 + num2
+                sumEl.textContent = "Sum: " + result
+            }
+
+            function subtract() {
+                let result = num1 - num2
+                sumEl.textContent = "Sum: " + result
+            }
+
+            function divide() {
+                let result = num1 / num2
+                sumEl.textContent = "Sum: " + result
+            }
+
+            function multiply() {
+                let result = num1 * num2
+                sumEl.textContent = "Sum: " + result
+            }
+
+        </script>
+    </body>
+</html>
