@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extension</title>
+    <style>
+        body{
+            margin:0;
+            padding:10px;
+            font-family: sans-serif;
+            min-width: 400px;
+        }
+
+        input{
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border:1px solid blueviolet;
+            margin-bottom: 4px;
+        } 
+        
+        button{
+            background-color: blueviolet;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            margin-top: 10px;
+        }   
+        
+        ul{
+            list-style: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li{
+            margin-bottom: 5px;
+        }
+
+        a{
+            color:blueviolet
+        }
+    </style>
+</head>
+<body>
+    <input type="text" id="input-el"><br>
+    <button id="btn-el">Submit</button>
+    <ul id="ul-el">
+    </ul>
+
+
+    <script>
+        let myLeads=[];
+        const btnEl = document.getElementById('btn-el');
+        const inputEl = document.getElementById('input-el');
+        const ulEl = document.getElementById('ul-el');
+
+        btnEl.addEventListener('click', function(){
+            myLeads.push(inputEl.value); 
+            inputEl.value = "";
+            renderLeads();
+        })
+
+        function renderLeads(){
+            let listItems= ""; 
+            for (let i = 0; i < myLeads.length; i++) {
+               //listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
+               listItems += `
+               <li>
+                    <a target='_blank' href='${myLeads[i]}'> 
+                        ${myLeads[i]}
+                    </a>   
+               </li>
+               `
+            
+            }
+            ulEl.innerHTML = listItems;
+        }
+
+    </script>
+
+</body>
+</html>
