@@ -1,0 +1,74 @@
+/* Challenge: Make it so that the user cannot select the text */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    color: #0a0806;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #d15acb;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+}
+
+button {
+    color: #080808;
+    background-color: #f86681;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+button:hover {
+    background-color: #f597d6;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #FFFDF8;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2)
+}
+
+ul li:hover {
+    background-color: #eb9fd8;
+    cursor: pointer;
+}
