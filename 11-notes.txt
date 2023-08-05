@@ -1,0 +1,10 @@
+Day 25 of #100DaysOfCode
+
+React renders HTML to the web page by using a function called ReactDOM.render().
+
+eg- ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
+
+
+JSX stands for JavaScript XML. 
+It is similar in appearance to HTML, hence provides a way to easily write HTML in react. 
+
