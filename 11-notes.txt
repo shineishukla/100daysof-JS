@@ -15,7 +15,7 @@ Day 26 of #100DaysOfCode
 React apps are made out of components. 
 Components help us write reusable, modular, and better organized code.
 A component can be as small as a button, or as large as an entire page.
-
+React component names must always start with a capital letter, while HTML tags must be lowercase.
 
 Crossorigin attribute is used to allow images from third-party sites that allow cross-origin access to be used 
 with canvas.
