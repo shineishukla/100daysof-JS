@@ -19,3 +19,32 @@ React component names must always start with a capital letter, while HTML tags m
 
 Crossorigin attribute is used to allow images from third-party sites that allow cross-origin access to be used 
 with canvas.
+
+
+Day 27
+
+CDN- 
+A content delivery network (CDN) refers to a geographically distributed group of servers that work together to 
+provide fast delivery of Internet content. The main use of a CDN is to deliver content through a network of 
+servers in a secure and efficient way.
+
+
+React vs ReactDOM:
+React is a JavaScript library for building User Interfaces whereas ReactDOM is also JavaScript library that 
+allows React to interact with the DOM.
+
+React components can be created in two ways:
+1. Function Components- Function components are basic JavaScript functions.
+Function components are used to render information to the web page without using or changing state.
+
+2. Class Components- Class components are more advanced than function components.
+Class components are used to render information to the web page by using and changing state.
+
+ASYNC vs DEFER:
+Async attribute loads the script asynchronously with the rest of the page.
+syntax:
+<script src="demo_async.js" async></script>
+
+Defer attribute loads the script when the page has finished parsing.
+syntax: 
+<script src="demo_defer.js" defer></script>
