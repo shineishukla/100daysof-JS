@@ -48,3 +48,14 @@ syntax:
 Defer attribute loads the script when the page has finished parsing.
 syntax: 
 <script src="demo_defer.js" defer></script>
+
+
+
+Day 28 of #100DaysOfCode
+
+BUNDLERS- it is a package/tool that puts your code and all its dependencies together in one JavaScript file.
+eg- webpack, parcel, rollup, vite etc.
+
+NPM- used to manages all the packages and dependencies for a project.
+
+
