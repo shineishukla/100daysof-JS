@@ -1,8 +1,10 @@
 # 100 Days Of Code (JavaScript Journey)
 Welcome to my JavaScript Journey! In this repository, I will be documenting my progress and code as I embark on a 100-day coding challenge focused on JavaScript. Throughout this journey, I will be working on various projects, solving coding exercises, and exploring different aspects of JavaScript programming.
 
-
-[Project using FireBase](https://github.com/shineishukla/add-to-cart)
+# Projects made during this Journey
+1. [Project using FireBase](https://github.com/shineishukla/add-to-cart)
+2. [Algorithm Alley- a group project](https://github.com/shineishukla/Algorithm-Alley)
+3. [Baggy-An e-commerce website](https://github.com/shineishukla/Baggy)
 
 # Goals
 Throughout this 100-day journey, I have set the following goals for myself:
