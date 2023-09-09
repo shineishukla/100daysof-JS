@@ -5,6 +5,8 @@ Welcome to my JavaScript Journey! In this repository, I will be documenting my p
 1. [Project using FireBase](https://github.com/shineishukla/add-to-cart)
 2. [Algorithm Alley- a group project](https://github.com/shineishukla/Algorithm-Alley)
 3. [Baggy-An e-commerce website](https://github.com/shineishukla/Baggy)
+4. [To Do App](https://github.com/shineishukla/to-do-app)
+5. [Name Junction](https://github.com/shineishukla/name-junction)
 
 # Goals
 Throughout this 100-day journey, I have set the following goals for myself:
