@@ -1,5 +1,6 @@
 # 100 Days Of Code (JavaScript Journey)
-Welcome to my JavaScript Journey! In this repository, I will be documenting my progress and code as I embark on a 100-day coding challenge focused on JavaScript and it's library. Throughout this journey, I will be working on various projects, solving coding exercises, and exploring different aspects of JavaScript programming.
+Welcome to my JavaScript Journey! In this repository, I will document my progress and code as I embark on a 100-day coding challenge focused on JavaScript and its library. Throughout this journey, I will work on various projects, solve coding exercises, and explore different aspects of JavaScript programming. And also learned UI/UX designing.
+
 
 # Projects made during this Journey
 1. [Project using FireBase](https://github.com/shineishukla/add-to-cart)
@@ -22,7 +23,7 @@ The purpose of this coding challenge is to strengthen my skills and deepen my un
 
 
 # Stay Connected
-Follow along with my JavaScript Journey by regularly checking this repository. I will be updating it daily with new code, project updates, and insights gained during my coding challenge. Feel free to leave comments, suggestions, or reach out to me if you have any questions or want to connect.
+Follow along with my JavaScript Journey by regularly checking this repository. I will be updating it daily with new code, project updates, and insights gained during my coding challenge. Please feel free to leave comments, and suggestions, or reach out to me if you have any questions or would like to connect.
 
 You can also connect with me on social media:
 
